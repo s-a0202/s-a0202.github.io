@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Hello, w!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+</head>
+<body>
+ <a href="#" class="far fa-arrow-alt-circle-up arrow"></a>
+ <div class="header">
+   <div class="container">
+     <div class="header-left"><a href="#">Sterling.</a></div>
+     <div class="menus">
+       <a class="pcmenu" id="pclogin" href="#">login</a>
+       <a class="pcmenu" href="#CimgFe">content</a>
+       <a class="pcmenu" href="#tonews">news</a>
+     </div>
+     <form id="search" action="index.html" method="post">
+       <input id="text" type="text" name="" value="" placeholder="キーワードを入力">
+       <input id="sbtn" type="submit" name="" value="検索">
+     </form>
+     <div class="fas fa-bars fa-fw " id="header-right"></div>
+   </div>
+  <div id="tabu" class="appear">
+   <div class="fas fa-times-circle" id="circle"></div>
+   <div class="tabu-btn">
+     <p id="login">login</p>
+     <a href="#CimgFe" id="mail">contents</a>
+     <a href="#tonews" class="tonews">news</a>
+   </div>
+  </div>
+  <div id="modal" class="hidden">
+    <div class="fas fa-times-circle" id="Mcircle"></div>
+    <h4>ログイン</h4>
+    <input id="input1" type="text" name="submit" value="" placeholder="ID"><br>
+    <p id="idconfirm">※半角英数字で入力してください。</p>
+    <input id="input2" type="password" name="submit" value="" placeholder="パスワード">
+    <p id="pasconfirm">※半角英数字かつ4～10文字で入力してください</p>
+    <div id="loginBtn">ログイン</div>
+    <a id="sub" href="#">新規登録はこちら</a><br>
+    <a id="pasu" href="#">パスワードを忘れた場合</a>
+  </div>
+  <div id="mask" class="hidden"></div>
+ </div>
+ <div class="top-wrap">
+  <div class="co">
+    <h1>What is Sterling.</h1>
+    <p class="explain">Sterling.は主に日本に生息する動植物を紹介するサイトです。</p>
+  </div>
+ </div>
+ <div class="main">
+  <div id="contain">
+   <div id="mains">
+     <div class="content"  id="CimgFe">
+       <i class="fab fa-pagelines leaf"><h3>CONTENTS</h3></i>
+     </div>
+    <div class="con">
+      <div class="flex">
+        <div class="Cimg">
+          <a href="animal.html"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Tamias_sibiricus_%28standing%29.JPG" width="250" height="250"></a>
+          <p>動物</p>
+        </div>
+        <div class="Cimg">
+          <a href="#"><img src="https://cdn.pixabay.com/photo/2015/03/28/19/05/crocus-696362_640.jpg" width="250" height="250"></a>
+          <p>植物</p>
+        </div>
+        <div class="Cimg">
+          <a href="#"><img src="https://cdn.pixabay.com/photo/2013/07/18/20/27/animal-165104_640.jpg" width="250" height="250"></a>
+          <p>昆虫</p>
+        </div>
+      </div>
+      <div id="tonews" class="news">
+        <div class="newsline">
+          <h3>News</h3>
+        </div>
+        <ul>
+          <li>サイトをリニューアルしました！</li>
+          <li>哺乳類の種類を追加しました！</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="footer">
+  <div id="contain">
+   <div id="footer-left">
+    <h3>ABOUT</h3>
+    <ul>
+     <li><a href="#">利用規約</a></li>
+     <li><a href="#">プライバシーポリシー</a></li>
+     <li><a href="mail.html" target="_blank">お問い合わせ</a></li>
+     <li><a href="#">このサイトについて</a></li>
+     <li><a href="#">運営者</a></li>
+    </ul>
+   </div>
+   <!-- <div id="sns"> -->
+    <a href="https://mobile.twitter.com" class="fab fa-twitter twitter" target="_blank"></a>
+    <a href="https://www.instagram.com" class="fab fa-instagram instagram" target="_blank"></a>
+    <a href="https://m.facebook.com" class="fab fa-facebook facebook" target="_blank"></a>
+   <!-- </div> -->
+  </div>
+ </div>
+ <div class="contain2">
+   <p class="myname">&copy;安達信太</p>
+ </div>
+
+ <script src="my.js"></script>
+</body>
+</html>
