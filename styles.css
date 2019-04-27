@@ -312,11 +312,11 @@ h1{
 }
 .content::before{
   margin-right: .5em;
-  background: linear-gradient(100deg,#000,transparent)
+  background: -webkit-linear-gradient(100deg,#000,transparent)
 }
 .content::after{
   margin-left: .5em;
-  background: linear-gradient(-100deg,#000,transparent)
+  background: -sebkit-linear-gradient(-100deg,#000,transparent)
 }
 .Cimg{
   /* margin-bottom: 10px; */
