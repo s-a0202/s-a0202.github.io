@@ -438,7 +438,7 @@ h1{
  transform: skewY(-10deg);
 }
 .contain2{
-  height: 250px;
+  height: 270px;
   background:#eee;
   margin:0;
   border-top: solid 2px black;
