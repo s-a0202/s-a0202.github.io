@@ -371,7 +371,7 @@ h1{
 .news ul li{
   font-size: 13px;
   list-style-type: circle;
-
+  font-family:"Ms Gothic;
 }
 .footer{
  position: relative;
