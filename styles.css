@@ -183,7 +183,7 @@ h1{
   transition: .9s;
 }
 #modal.hidden{
-  transform: translate(-800px, -800px);
+  transform: translate(0, -800px);
 }
 #modal h4{
   text-align: center;
