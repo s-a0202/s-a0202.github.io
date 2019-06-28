@@ -414,6 +414,7 @@ footer li a{
  transform: skewY(-10deg);
 }
 .instagram{
+  position: relative;
   display: inline-block;
   float: right;
   text-align: center;
