@@ -33,7 +33,7 @@ header .container{
   font-size:40px;
   letter-spacing: 2px;
   float:left;
-  font-family: fantasy;
+  font-family: 'fantasy';
   user-select: none;
 }
 .header-left a{
