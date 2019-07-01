@@ -8,7 +8,7 @@ $(function(){
     $head_r.removeClass('hidden');
   }
 
-  $(document).on('click',function(e){
+  $(document).on('click touched',function(e){
     if (!$(e.target).closest('#header-right').length){
       $('#tabu').addClass('hidden');
       head_r_hidden()
