@@ -3,7 +3,7 @@ body{
  padding: 0;
  width: 100%;
  height: 100%;
- font-family: 'Comic Sans MS';
+ font-family: 'Comic Sans MS', 'sans-selif';
 }
 a{
   text-decoration: none;
