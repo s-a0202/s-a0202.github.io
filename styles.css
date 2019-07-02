@@ -25,6 +25,7 @@ header{
 }
 header .container{
   position:fixed;
+  height:70px;
   width: 100%;
   margin: 0 auto;
 }
