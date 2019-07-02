@@ -382,6 +382,9 @@ footer{
 footer .container{
   height: 250px;
 }
+footer>.container>a:hover{
+  opacity: .8;
+}
 .footer-left{
  padding: 0;
  transform: skewY(-10deg);
