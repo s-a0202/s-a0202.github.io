@@ -517,12 +517,13 @@ footer li a{
     letter-spacing: 8px;
     padding-top: 300px;
     font-size: 4.7em;
+    border-radius: 10px;
   }
   #modal{
     background: #fff;
     height: 500px;
     width: 400px;
-    border-radius: 5px;
+    border-radius: 12px;
     text-align: center;
     margin: 90px auto;
     position: absolute;
