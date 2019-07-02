@@ -496,17 +496,19 @@ footer li a{
     display: none;
   }
   .menus{
-    margin-top: 20px;
     margin-right: 240px;
     display: inline-block;
     font-weight: normal;
     font-size: 20px;
+    color: #fff;
     float: right;
   }
   .pcmenu{
     margin-right: 20px;
     display: inline-block;
     letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
   }
   .pcmenu:hover{
     color: #ddd;
@@ -622,7 +624,6 @@ footer li a{
 
 @media(min-width:850px){
   .menus{
-    margin-top: 20px;
     margin-right: 230px;
     display: inline-block;
     font-weight: normal;
