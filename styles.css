@@ -297,6 +297,9 @@ h1{
   transform: skewX(-15deg);
   z-index: 2;
 }
+.leaf>h3{
+  font-family: 'Comic Sans Ms';
+}
 .contents::before,.contents::after{
   content: "";
   display: inline-block;
