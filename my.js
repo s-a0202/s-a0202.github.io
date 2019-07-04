@@ -10,13 +10,15 @@ document.getElementById('input1').addEventListener('click',()=>{
 
 document.getElementById('input2').addEventListener('keyup',()=>{
   let input2len=input2.value.length;
-  if (input2len<5) {
+  if (input2len<6) {
     pasconfirm.classList.add('chcolor');
-  }else if (input2len>11) {
-    pasconfirm.classList.add('chcolor');
-    alert('文字数超過です。10文字以内で入力してください')
-  }else if (input2len<4&&input2len>10) {
+  }else if (input2len==0){
     pasconfirm.classList.remove('chcolor');
+  }else if (input2len>7&&input2len<12) {
+    pasconfirm.classList.remove('chcolor');
+  }else if (input2len>12) {
+    pasconfirm.classList.add('chcolor');
+    alert('文字数超過です。12文字以内で入力してください')
   }
 });
 }
