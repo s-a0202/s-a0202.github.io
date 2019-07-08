@@ -1,61 +1,11 @@
 'use strict'
 {
 
-let hedR=document.getElementById('header-right');
-let tabu=document.getElementById('tabu');
-let login=document.getElementById('login');
-let mail=document.getElementById('mail');
-let to_news=document.getElementById('to_news');
-let modal=document.getElementById('modal');
-let mask=document.getElementById('mask');
-let idconfirm=document.getElementById('idconfirm');
-let pasconfirm=document.getElementById('pasconfirm');
-let circle=document.getElementById('circle');
-let Mcircle=document.getElementById('Mcircle');
 let limit=10;
 
 function expHid(){
 
 }
-
-hedR.addEventListener('click',()=>{
- tabu.className='';
- hedR.classList.add('r');
-});
-
-circle.addEventListener('click',()=>{
- tabu.classList.add('appear');
- hedR.classList.add('re');
- hedR.classList.remove('r');
-});
-
-login.addEventListener('click',()=>{
-  modal.classList.remove('hidden');
-  mask.classList.remove('hidden');
-  tabu.classList.add('appear');
-});
-
-mail.addEventListener('click',()=>{
-  tabu.classList.add('appear');
-  hedR.classList.remove('r');
-});
-// 
-// to_news.addEventListener('click',()=>{
-//   tabu.classList.add('appear');
-//   hedR.classList.remove('r');
-// });
-
-// mask.addEventListener('click',=>{
-//   modal.classList.remove('hidden');
-//   mask.classList.remove('hidden');
-//   tabu.classList.remove('appear');
-// });
-
-Mcircle.addEventListener('click',()=>{
- modal.classList.add('hidden');
- mask.classList.add('hidden');
- hedR.classList.remove('r');
-});
 
 document.getElementById('input1').addEventListener('click',()=>{
   input1.classList.add('reClolor');
@@ -63,27 +13,16 @@ document.getElementById('input1').addEventListener('click',()=>{
 
 document.getElementById('input2').addEventListener('keyup',()=>{
   let input2len=input2.value.length;
-  if (input2len<5) {
+  if (input2len<6) {
     pasconfirm.classList.add('chcolor');
-  }else if (input2len>11) {
-    pasconfirm.classList.add('chcolor');
-    alert('文字数超過です。10文字以内で入力してください')
-  }else if (input2len<4&&input2len>10) {
+  }else if (input2len==0){
     pasconfirm.classList.remove('chcolor');
+  }else if (input2len>7&&input2len<12) {
+    pasconfirm.classList.remove('chcolor');
+  }else if (input2len>12) {
+    pasconfirm.classList.add('chcolor');
+    alert('文字数超過です。12文字以内で入力してください')
   }
-});
-
-
-document.getElementById('loginBtn').addEventListener('click',()=>{
-  loginBtn.className='push';
-});
-
-document.getElementById('sub').addEventListener('click',()=>{
-  sub.className='push';
-});
-
-document.getElementById('pasu').addEventListener('click',()=>{
-  pasu.className='push';
 });
 
 let img_src=['http://free-photo.net/photo_img/081030111211.jpg',
