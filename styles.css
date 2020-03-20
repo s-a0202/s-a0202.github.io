@@ -531,7 +531,7 @@ header #modal #pasu:active {
 
 @media (max-width: 479px) {
   .top-wrapper .container .down {
-    margin-top: 90px;
+    margin-top: 40px;
   }
 }
 
