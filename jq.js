@@ -9,13 +9,15 @@ $(function(){
       $(this).removeClass('transform');
       $(this).css('transform','translateY(-17px)').css('z-index','1');
       $('.search_box').css('transform','translateX(0px)');
-      $('#tabu').css('height','0').css('opacity','0').css('display','none');
+      $('#tabu').css('height','0').css('opacity','0');
+      $('.tabu-btn').css('display','none');
       $('.sp_search_area').css('height','0').css('opacity','0');
     }else {
       $(this).addClass('transform');
       $(this).css('transform','translateY(60px)').css('z-index','16');
       $('.search_box').css('transform','translateX(45px)');
-      $('#tabu').css('height','60vh').css('opacity','1').css('display','block');
+      $('#tabu').css('height','60vh').css('opacity','1');
+      $('.tabu-btn').css('display','inline-block');
       $('.sp_search_area').css('height','60px').css('opacity','1');
     }
   });
