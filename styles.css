@@ -7,8 +7,7 @@ body {
 }
 
 @supports (-ms-ime-align:auto) {
-  header {
-    width: 100%;
+  body {
     overflow: hidden;
   }
 }
