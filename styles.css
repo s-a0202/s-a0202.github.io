@@ -6,6 +6,13 @@ body {
   font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+@supports (-ms-ime-align:auto) {
+  header {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
 a {
   text-decoration: none;
 }
