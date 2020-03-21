@@ -10,14 +10,6 @@ body {
   body {
     overflow-x: hidden;
   }
-  
-  .menus {
-    font-size: 0.6em;
-  }
-  
-  .news_container ul li {
-    font-size: 1em;
-  }
 }
 
 a {
@@ -87,7 +79,7 @@ header .header-left {
 header .menus {
   margin-right: 100px;
   font-weight: normal;
-  font-size: .7em;
+  font-size: .6em;
   float: right;
   margin-right: 50px;
   display: inline-block;
@@ -860,7 +852,7 @@ header #modal #pasu:active {
 }
 
 .news_container ul li {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   line-height: 2;
 }
