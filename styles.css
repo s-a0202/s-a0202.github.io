@@ -10,6 +10,14 @@ body {
   body {
     overflow-x: hidden;
   }
+  
+  .menus {
+    font-size: 0.6em;
+  }
+  
+  .news_container ul li {
+    font-size: 1em;
+  }
 }
 
 a {
