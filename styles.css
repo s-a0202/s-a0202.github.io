@@ -8,7 +8,7 @@ body {
 
 @supports (-ms-ime-align:auto) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
