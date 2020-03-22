@@ -62,7 +62,7 @@ $(function(){
   $('#contents').on('click',function(){
     $head_r.removeClass('transform');
     $head_r.css('transform','translateY(-17px)').css('z-index','1');
-    $('#tabu').css('opacity','0').css('display','none');
+    $('#tabu').css('height','0').css('opacity','0');
     $mask.addClass('hidden');
     $('.search_box').css('transform','translateX(0px)');
   });
@@ -70,7 +70,7 @@ $(function(){
   $('#to_news').click(function(){
     $head_r.removeClass('transform');
     $head_r.css('transform','translateY(-17px)').css('z-index','1');
-    $('#tabu').css('opacity','0').css('display','none');
+    $('#tabu').css('height','0').css('opacity','0');
     $mask.addClass('hidden');
     $('.search_box').css('transform','translateX(0px)');
   });
