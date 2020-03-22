@@ -10,6 +10,11 @@ $tab:770px;
     @content;
   }
 }
+@supports (-ms-ime-align:auto) {
+  body {
+    overflow-x: hidden;
+  }
+}
 body{
   margin: 0;
   padding: 0;
@@ -135,6 +140,7 @@ header{
       }
       @include media-sp{
         right: 60px;
+        padding: 0;
       }
     }
     .search_area{
@@ -216,14 +222,14 @@ header{
     font-size:20px;
     color: #fff;
     transition: all .4s;
-    display: none;
+    display: block;
     .container{
       margin-top: 40px;
       .tabu-btn{
         width: 100%;
+        display: none;
         cursor: pointer;
         text-align: center;
-        display: inline-block;
         padding: 8px 0;
         letter-spacing: 3px;
         color: #fff;
@@ -472,7 +478,7 @@ header{
           width: 80px;
         }
         @include media-sp{
-          margin-top: 40px;
+          margin-top: 90px;
         }
       }
     }
@@ -560,7 +566,7 @@ header{
         height: 70vh;
         width: 100%;
         @include media-sp{
-          height: 67vh;
+          height: 53vh;
           width: 97%;
         }
       }
@@ -579,7 +585,7 @@ header{
       a{
         display: block;
         width: 100%;
-        height: 70vh;
+        height: inherit;
       }
       h2{
         position: absolute;
@@ -802,4 +808,53 @@ background: #111;
     }
   }
 }
+// ---------media--------------------------
+// @media(max-width:770px){
+  // .pcmenu{
+  //   margin-right: 35px;
+  //   letter-spacing: 1px;
+  // }
+  // #header-right{
+  //   display: none;
+  // }
+  //  #idconfirm{
+  //    font-size: 13px;
+  //    font-weight: normal;
+  //  }
+  //  #pasuconfirm{
+  //    font-size: 13px;
+  //    font-weight: normal;
+  //  }
+   /* .flex{
+     display: flex;
+     max-width:800px;
+     width: 100%;
+     margin: auto;
+   } */
+// }
+// @media(max-width:479px){
+//   .menus{
+//     display: none;
+//   }
+//   #search{
+//     float: right;
+//     display: none;
+//   }
+//   #header-right{
+//     display: block;
+//   }
+//   .contents_container{
+//     height: 55vh;
+//     width: 95%;
+//   }
+//   .news_container{
+//     width: 100%;
+//     padding-top: 60px;
+//   }
+//   h1{
+//     letter-spacing: 8px;
+//     padding-top: 300px;
+//     font-size: 5.3em;
+//   }
+// }
  
