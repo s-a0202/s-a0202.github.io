@@ -135,6 +135,7 @@ header .search_icon .search_box .search {
 @media (max-width: 479px) {
   header .search_icon .search_box {
     right: 60px;
+    padding: 0;
   }
 }
 
