@@ -52,6 +52,7 @@ $(function(){
     $head_r.css('transform','translateY(-17px)').css('opacity','1').css('z-index','1');
     $('.search_box').css('transform','translateX(0px)');
     $('#tabu').css('height','0').css('opacity','0');
+    $('.tabu-btn').css('display','none');
   });
 
   $('#mask').click(function(){
@@ -63,6 +64,7 @@ $(function(){
     $head_r.removeClass('transform');
     $head_r.css('transform','translateY(-17px)').css('z-index','1');
     $('#tabu').css('height','0').css('opacity','0');
+    $('.tabu-btn').css('display','none');
     $mask.addClass('hidden');
     $('.search_box').css('transform','translateX(0px)');
   });
@@ -71,6 +73,7 @@ $(function(){
     $head_r.removeClass('transform');
     $head_r.css('transform','translateY(-17px)').css('z-index','1');
     $('#tabu').css('height','0').css('opacity','0');
+    $('.tabu-btn').css('display','none');
     $mask.addClass('hidden');
     $('.search_box').css('transform','translateX(0px)');
   });
